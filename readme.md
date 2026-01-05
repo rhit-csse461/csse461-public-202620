@@ -12,7 +12,7 @@ follow the recommended route. If you're more experienced and have your own prefe
 other notes below for tips.
 
 All of these approaches create a *virtual environment* called `csse461` for this course. That way
-you can install all sorts of strange poackages for this course without messing up your system
+you can install all sorts of strange packages for this course without messing up your system
 for other classes.
 
 ## Windows Setup (GUI all the way -- Recommended)
@@ -28,7 +28,7 @@ checkbox. Click create.
 
 4. This step is rather manual. In the Anaconda Navigator environments tab, with `csse461` selected, 
 search for each of the python packages in our `requirements.txt` package. (It's best practice to 
-select all the packages first, and then click Install.)
+select all the packages first, and then click Install, rather than installing one at a time.)
 
 5. To launch Jupyter Lab: from the Home tab of Anaconda Navigator, with the `csse461` environment
 selected, click on Jupyter Lab. (There may be a first time install.)
@@ -50,7 +50,7 @@ packages, try this:
 conda create --name csse461
 ```
 
-4. Navigate to the place where you cloned our course repo. YOu should be in the folder containing
+4. Navigate to the place where you cloned our course repo. You should be in the folder containing
 this readme and `requirements.txt`.
 
 5a. Install the course packages with this command:
